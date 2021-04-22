@@ -57,14 +57,17 @@ namespace ntpVizeOdevi
                     if (maks >= 20 && maks < 30)
                     {
                         txt_Durum.Text = "Parçalı Bulutlu";
+                        pictureBox1.Image = ımageList1.Images[1];
                     }
                     else if (maks <= 20)
                     {
                         txt_Durum.Text = "Parçalı Az Bulutlu";
+                        pictureBox1.Image = ımageList1.Images[2];
                     }
                     else
                     {
                         txt_Durum.Text = "Güneşli";
+                        pictureBox1.Image = ımageList1.Images[0];
                     }
                 }
             }

@@ -48,8 +48,18 @@ namespace ntpVizeOdevi
                     string durum = item.SelectSingleNode("Durum").InnerText;
                     int maks =Convert.ToInt32( item.SelectSingleNode("Mak").InnerText);
                     string bolge = item.SelectSingleNode("Bolge").InnerText;
+
+                    txt_SehirAdi.Text = sehirAdi;
+                    txt_Durum.Text = durum;
+                    txt_Maks.Text = maks.ToString();
+                    txt_Bolge.Text = bolge;
                 }
             }
+        }
+
+        private void combo_Sehir_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            havaDurumu();
         }
     }
 }

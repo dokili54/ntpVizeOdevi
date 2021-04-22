@@ -135,6 +135,7 @@ namespace ntpVizeOdevi
             this.combo_Sehir.Name = "combo_Sehir";
             this.combo_Sehir.Size = new System.Drawing.Size(192, 24);
             this.combo_Sehir.TabIndex = 2;
+            this.combo_Sehir.SelectedIndexChanged += new System.EventHandler(this.combo_Sehir_SelectedIndexChanged);
             // 
             // pictureBox1
             // 

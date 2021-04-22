@@ -49,6 +49,7 @@ namespace ntpVizeOdevi
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(13, 13);
             this.label1.Name = "label1";
@@ -59,6 +60,7 @@ namespace ntpVizeOdevi
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.Location = new System.Drawing.Point(13, 44);
             this.label2.Name = "label2";
@@ -68,6 +70,7 @@ namespace ntpVizeOdevi
             // 
             // txt_SehirAdi
             // 
+            this.txt_SehirAdi.BackColor = System.Drawing.SystemColors.Info;
             this.txt_SehirAdi.Enabled = false;
             this.txt_SehirAdi.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold);
             this.txt_SehirAdi.Location = new System.Drawing.Point(153, 46);
@@ -78,6 +81,7 @@ namespace ntpVizeOdevi
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.Location = new System.Drawing.Point(13, 79);
             this.label3.Name = "label3";
@@ -87,6 +91,7 @@ namespace ntpVizeOdevi
             // 
             // txt_Durum
             // 
+            this.txt_Durum.BackColor = System.Drawing.SystemColors.Info;
             this.txt_Durum.Enabled = false;
             this.txt_Durum.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txt_Durum.Location = new System.Drawing.Point(153, 81);
@@ -97,6 +102,7 @@ namespace ntpVizeOdevi
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.Location = new System.Drawing.Point(13, 115);
             this.label4.Name = "label4";
@@ -106,6 +112,7 @@ namespace ntpVizeOdevi
             // 
             // txt_Maks
             // 
+            this.txt_Maks.BackColor = System.Drawing.SystemColors.Info;
             this.txt_Maks.Enabled = false;
             this.txt_Maks.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txt_Maks.Location = new System.Drawing.Point(153, 117);
@@ -116,6 +123,7 @@ namespace ntpVizeOdevi
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.Location = new System.Drawing.Point(13, 150);
             this.label5.Name = "label5";
@@ -125,6 +133,7 @@ namespace ntpVizeOdevi
             // 
             // txt_Bolge
             // 
+            this.txt_Bolge.BackColor = System.Drawing.SystemColors.Info;
             this.txt_Bolge.Enabled = false;
             this.txt_Bolge.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txt_Bolge.Location = new System.Drawing.Point(153, 152);
@@ -134,18 +143,22 @@ namespace ntpVizeOdevi
             // 
             // combo_Sehir
             // 
+            this.combo_Sehir.BackColor = System.Drawing.SystemColors.Info;
+            this.combo_Sehir.Font = new System.Drawing.Font("Comic Sans MS", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.combo_Sehir.FormattingEnabled = true;
             this.combo_Sehir.Location = new System.Drawing.Point(153, 13);
             this.combo_Sehir.Name = "combo_Sehir";
-            this.combo_Sehir.Size = new System.Drawing.Size(192, 24);
+            this.combo_Sehir.Size = new System.Drawing.Size(192, 27);
             this.combo_Sehir.TabIndex = 2;
             this.combo_Sehir.SelectedIndexChanged += new System.EventHandler(this.combo_Sehir_SelectedIndexChanged);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Location = new System.Drawing.Point(352, 13);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(165, 165);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 

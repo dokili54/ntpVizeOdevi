@@ -53,6 +53,19 @@ namespace ntpVizeOdevi
                     txt_Durum.Text = durum;
                     txt_Maks.Text = maks.ToString();
                     txt_Bolge.Text = bolge;
+
+                    if (maks >= 20 && maks < 30)
+                    {
+                        txt_Durum.Text = "Parçalı Bulutlu";
+                    }
+                    else if (maks <= 20)
+                    {
+                        txt_Durum.Text = "Parçalı Az Bulutlu";
+                    }
+                    else
+                    {
+                        txt_Durum.Text = "Güneşli";
+                    }
                 }
             }
         }

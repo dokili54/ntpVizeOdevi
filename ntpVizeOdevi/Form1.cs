@@ -37,6 +37,8 @@ namespace ntpVizeOdevi
                     combo_Sehir.Items.Add(sehirler.SelectSingleNode("ili").InnerText);
                 }
             }
+            combo_Sehir.Sorted = true;
+
         }
     }
 }

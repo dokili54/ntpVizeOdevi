@@ -68,10 +68,11 @@ namespace ntpVizeOdevi
             // 
             // txt_SehirAdi
             // 
-            this.txt_SehirAdi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txt_SehirAdi.Enabled = false;
+            this.txt_SehirAdi.Font = new System.Drawing.Font("Constantia", 10F, System.Drawing.FontStyle.Bold);
             this.txt_SehirAdi.Location = new System.Drawing.Point(153, 46);
             this.txt_SehirAdi.Name = "txt_SehirAdi";
-            this.txt_SehirAdi.Size = new System.Drawing.Size(192, 26);
+            this.txt_SehirAdi.Size = new System.Drawing.Size(192, 28);
             this.txt_SehirAdi.TabIndex = 1;
             // 
             // label3
@@ -86,10 +87,11 @@ namespace ntpVizeOdevi
             // 
             // txt_Durum
             // 
-            this.txt_Durum.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txt_Durum.Enabled = false;
+            this.txt_Durum.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txt_Durum.Location = new System.Drawing.Point(153, 81);
             this.txt_Durum.Name = "txt_Durum";
-            this.txt_Durum.Size = new System.Drawing.Size(192, 26);
+            this.txt_Durum.Size = new System.Drawing.Size(192, 27);
             this.txt_Durum.TabIndex = 1;
             // 
             // label4
@@ -104,10 +106,11 @@ namespace ntpVizeOdevi
             // 
             // txt_Maks
             // 
-            this.txt_Maks.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txt_Maks.Enabled = false;
+            this.txt_Maks.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txt_Maks.Location = new System.Drawing.Point(153, 117);
             this.txt_Maks.Name = "txt_Maks";
-            this.txt_Maks.Size = new System.Drawing.Size(192, 26);
+            this.txt_Maks.Size = new System.Drawing.Size(192, 27);
             this.txt_Maks.TabIndex = 1;
             // 
             // label5
@@ -122,10 +125,11 @@ namespace ntpVizeOdevi
             // 
             // txt_Bolge
             // 
-            this.txt_Bolge.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txt_Bolge.Enabled = false;
+            this.txt_Bolge.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txt_Bolge.Location = new System.Drawing.Point(153, 152);
             this.txt_Bolge.Name = "txt_Bolge";
-            this.txt_Bolge.Size = new System.Drawing.Size(192, 26);
+            this.txt_Bolge.Size = new System.Drawing.Size(192, 27);
             this.txt_Bolge.TabIndex = 1;
             // 
             // combo_Sehir

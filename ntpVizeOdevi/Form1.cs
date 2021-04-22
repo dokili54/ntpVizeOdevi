@@ -51,7 +51,7 @@ namespace ntpVizeOdevi
 
                     txt_SehirAdi.Text = sehirAdi;
                     txt_Durum.Text = durum;
-                    txt_Maks.Text = maks.ToString();
+                    txt_Maks.Text = maks.ToString()+"°C";
                     txt_Bolge.Text = bolge;
 
                     if (maks >= 20 && maks < 30)

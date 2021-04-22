@@ -39,6 +39,17 @@ namespace ntpVizeOdevi
             }
             combo_Sehir.Sorted = true;
 
+            foreach (XmlNode item in iller)
+            {
+                string ili=item.SelectSingleNode("ili").InnerText;
+                if (ili == combo_Sehir.Text)
+                {
+                    string sehirAdi = item.SelectSingleNode("ili").InnerText;
+                    string durum = item.SelectSingleNode("Durum").InnerText;
+                    int maks =Convert.ToInt32( item.SelectSingleNode("Mak").InnerText);
+                    string bolge = item.SelectSingleNode("Bolge").InnerText;
+                }
+            }
         }
     }
 }
